@@ -1,0 +1,6 @@
+@HRMS_HostAddress = https://localhost:7127
+
+POST {{HRMS_HostAddress}}/api/Employees/GetEmployee
+Accept: application/json
+
+###
