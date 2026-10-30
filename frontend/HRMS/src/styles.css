@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{
+    background-color: #ebe6f3;
+    font-family: sans-serif;
+    font-size: 14px ;
+    margin:8px 22%;
+}
+@media(max-width:650px){
+ html{
+        margin:8px 0%;
+
+     }
+ }

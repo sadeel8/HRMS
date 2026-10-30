@@ -1,5 +1,189 @@
 
-.title{
+/* .title{
     font-size:20px;
     font-weight:600;
+}
+.passed{
+    font-weight:600;
+    color:green;
+}
+
+.failed{
+    font-weight:600;
+    color:red;
+} */
+
+
+
+
+/* h2 {
+    background-color: red;
+} */
+
+
+
+
+.header{
+    background-color: #ffffff;
+    padding: 1% 4% 2%;
+    border-radius: 10px;
+    border-top: 9px #673ab7 solid !important;
+    border: 1px #dddddd solid;
+}
+
+.email{
+    font-weight: 600;
+    color: #606060;
+    /* font-size: 0.9rem; */
+}
+
+/* .switch-account{
+    font-size: 0.9rem;
+}
+
+.icon{
+    font-size: 0.9rem;
+} */
+
+/* .account{
+    font-size: 0.9rem;
+} */
+
+/* .account-value{
+    font-size: 0.9rem;
+} */
+
+.account{
+    display: flex;
+}
+
+.email, .switch-account, .icon{
+   font-size: 0.9rem; 
+}
+
+.icon{
+        cursor: pointer;
+}
+
+.switch-account{
+    margin-left: 1%;
+    flex-grow: 1;
+}
+
+.warning, .required-icon{
+    color: #ab0707;
+}
+
+.question{
+    background-color: #ffffff;
+    padding: 2% 4%;
+    border-radius: 10px;
+    border: 1px #dddddd solid;
+    margin-top: 1%;
+}
+
+.title{
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+}
+
+input, select{
+    padding: 1% 2%;
+    margin: 0.8% 0;
+    border: 1px #cdcccc solid;
+    border-radius: 4px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.actions{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-btn{
+        padding: 1.5% 2.5%;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.submit-btn{
+    background-color: #673ab6;
+    color: white;
+}
+
+.reset-btn{
+    background-color: unset;
+    color: #673ab6;
+}
+
+.reset-btn:hover{
+    background-color: #683ab639;
+}
+
+.footer{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy-right{
+    font-size: 0.9rem;
+    color: #645f5f;
+}
+
+.logo{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #645f5f;
+}
+
+.container{
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.box{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.red-border{
+    border: 1px red solid;
+}
+
+/* Media Query */
+
+@media(max-width: 650px){
+
+ 
+
+    input,select{
+        width: 100%;
+        padding: 4% 5%;
+        font-size: 1.3rem;
+    }
+
+    .action-btn{
+        padding: 4.5% 6.5%;
+        font-size: 1.3rem;
+    }
+
+    .account, .email, .switch-account, .icon, .copy-right{
+        font-size: 1.3rem;
+    }
+    
+    .logo{
+        font-size: 1.9rem;
+    }
+
 }
