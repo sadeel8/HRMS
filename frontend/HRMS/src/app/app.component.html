@@ -1,0 +1,24 @@
+
+<!-- <div class="title">
+ Title: {{title}}
+</div>
+
+<div class="title">
+ Number: {{number}}
+</div>
+
+<div class="title">
+ Boolean: {{bool}}
+</div>
+
+<div class="title">
+ Array: {{arr}}
+</div> -->
+
+<div *ngFor="let student of students">
+ 
+  <span style="margin-right:5px">{{student.name}}</span>
+  <span style="margin-right:5px">{{student.mark}}%</span>
+  <span *ngIf="student.mark>50">Passed</span>
+  <span *ngIf="student.mark <=50">Failed</span>
+</div>
